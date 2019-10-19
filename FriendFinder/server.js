@@ -1,7 +1,7 @@
 // Dependencies
-var http = require("http");
-
-var PORT = 8080;
+var express = require("express");
+var app = express();
+const PORT = 8080;
 
 var server = http.createServer(handleRequest);
 
