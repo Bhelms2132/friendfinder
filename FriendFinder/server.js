@@ -1,33 +1,16 @@
 // Dependencies
 var express = require("express");
 var app = express();
-const PORT = 8080;
+// Sets an initial port.
+const PORT = process.env.PORT || 8080;
+// Sets up the Express app to handle data parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-var server = http.createServer(handleRequest);
 
-function handleRequest(req, res) {
-
-  // Saving the request data as a variable
-  var requestData = "";
-
-  // When the server receives data...
-  req.on("data", function(data) {
-
-    // Add it to requestData.
-    requestData += data;
-  });
-
-  // When the request has ended...
-  req.on("end", function() {
-
-    // Log (server-side) the request method, as well as the data received!
-    console.log("You did a", req.method, "with the data:\n", requestData);
-    res.end();
-  });
-
-}
-
-// Start our server
-server.listen(PORT, function() {
-  console.log("Server listening on: http://localhost:" + PORT);
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
+// Listner
+app.listen(PORT, function() {
+  console.log("App listening on PORT: " + PORT);
 });
