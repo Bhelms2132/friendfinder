@@ -24,3 +24,8 @@ Once the user cilcks "Go to Survey", they will be directed to the survey page to
 
 ![image](https://user-images.githubusercontent.com/52431116/72654715-b5eae280-395e-11ea-8a2a-808818156464.png)
 
+## Match
+Once the survey is completed and the "Submit" button at the bottom of the page has been clicked. The app will return the best match for the user.
+
+![image](https://user-images.githubusercontent.com/52431116/72654847-60fb9c00-395f-11ea-9924-08a44b46b644.png)
+
