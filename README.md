@@ -18,3 +18,9 @@ Here the user will click on "Go to Survey"
 ## Mobile Responsive 
 
 ![image](https://user-images.githubusercontent.com/52431116/72654613-4d036a80-395e-11ea-8d62-b33556d8e4f2.png)
+
+## Survey page
+Once the user cilcks "Go to Survey", they will be directed to the survey page to fill out.
+
+![image](https://user-images.githubusercontent.com/52431116/72654715-b5eae280-395e-11ea-8a2a-808818156464.png)
+
