@@ -15,3 +15,6 @@ Here the user will click on "Go to Survey"
 
 ![image](https://user-images.githubusercontent.com/52431116/72654492-cd759b80-395d-11ea-8b91-233fd99f66cb.png)
 
+## Mobile Responsive 
+
+![image](https://user-images.githubusercontent.com/52431116/72654613-4d036a80-395e-11ea-8d62-b33556d8e4f2.png)
