@@ -9,3 +9,9 @@ HTML5, Bootsrap, JavaScript, API GET & POST, Node.js, NPM packages (body-parser,
 
 ## Link to friendfinder
 https://friendfinder-bh.herokuapp.com/
+
+## Start
+Here the user will click on "Go to Survey"
+
+![image](https://user-images.githubusercontent.com/52431116/72654492-cd759b80-395d-11ea-8b91-233fd99f66cb.png)
+
